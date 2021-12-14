@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
-function App() {
+import Navbar from "./components/Navbar";
+
+import Quiz from "./pages/Quiz";
+import Registration from "./pages/Registration";
+import Result from "./pages/Result";
+
+import "./assets/css/style.css";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      {/* Navigation Bar in All Page */}
+      <Navbar />
+      {/* Routes */}
+      <Switch>
+        <Route exact path="/" component={Registration}></Route>
+        <Route exact path="/quiz" component={Quiz}></Route>
+        <Route exact path="/result" component={Result}></Route>
+        <Redirect to="/" />
+      </Switch>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

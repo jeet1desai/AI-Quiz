@@ -1,0 +1,110 @@
+{
+  "English": {
+    "SingleChoice": {
+      "Question": "2 + 2 = ?",
+      "AnswerOption": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "CorrectAnswer": "4"
+    },
+    "MultiChoice": {
+      "Question": "Which Country starts with I letter ?",
+      "AnswerOption": [
+        "India",
+        "Pakistan",
+        "Iran",
+        "Indonesia"
+      ],
+      "CorrectAnswer": [
+        "India",
+        "Iran",
+        "Indonesia"
+      ]
+    },
+    "CorrectIncorrectChoice": {
+      "Question": "2 + 5 = 7",
+      "CorrectAnswer": "True"
+    },
+    "FillInBlank": {
+      "Question": "8 * 7 = ?",
+      "CorrectAnswer": [
+        "56",
+        "fiftysix"
+      ]
+    },
+    "MatchFollowing": {
+      "Question": [
+        "1 + 1 = ?",
+        "2 * 4 = ?",
+        "2 + 3 = ?"
+      ],
+      "AnswerOption": [
+        "8",
+        "5",
+        "2"
+      ],
+      "CorrectAnswer": [
+        "3",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "Hindi": {
+    "SingleChoice": {
+      "Question": "2 + 2 = ?",
+      "AnswerOption": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "CorrectAnswer": "4"
+    },
+    "MultiChoice": {
+      "Question": "Which Country starts with I letter ?",
+      "AnswerOption": [
+        "India",
+        "Pakistan",
+        "Iran",
+        "Indonesia"
+      ],
+      "CorrectAnswer": [
+        "India",
+        "Iran",
+        "Indonesia"
+      ]
+    },
+    "CorrectIncorrectChoice": {
+      "Question": "2 + 5 = 7",
+      "CorrectAnswer": "True"
+    },
+    "FillInBlank": {
+      "Question": "8 * 7 = ?",
+      "CorrectAnswer": [
+        "56",
+        "fiftysix"
+      ]
+    },
+    "MatchFollowing": {
+      "Question": [
+        "1 + 1 = ?",
+        "2 * 4 = ?",
+        "2 + 3 = ?"
+      ],
+      "AnswerOption": [
+        "8",
+        "5",
+        "2"
+      ],
+      "CorrectAnswer": [
+        "3",
+        "1",
+        "2"
+      ]
+    }
+  }
+}

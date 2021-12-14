@@ -1,0 +1,17 @@
+.registration-page,
+.quiz-page {
+  margin: 50px 0;
+}
+
+.quiz-page .stepper .Mui-active {
+  color: red;
+}
+
+
+.quiz-page .stepper .MuiSvgIcon-root{
+  cursor: pointer;
+}
+
+.quiz-page .question button{
+  margin-right: 10px;
+}
